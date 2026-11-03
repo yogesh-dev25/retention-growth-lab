@@ -1,12 +1,12 @@
-# How I'd bring back lapsed food-delivery users
+# What public grocery orders say about win-back
 
 **Yogesh T · Retention & Growth Lab · October 2026**
 
-Built on 3.42 million real grocery orders from 206,209 Instacart users. Swiggy's data is not public, so this is a stand-in: the same repeat-ordering problem, measured on real behaviour. Money figures are assumptions and are labelled as such.
+Built on 3.42 million public Instacart grocery orders from 206,209 users (the Kaggle Market Basket dataset). This is US grocery behaviour, not an export from an Indian quick-commerce company. Money figures use an assumed margin and are labelled as such.
 
 ## The short version
 
-Don't send win-back coupons to everyone who goes quiet. Spend the effort on **frequent users right after their first lapse**. That's where one missed month turns into a lost customer. For monthly users a 30-day gap is just their rhythm. And the first test should be a **free nudge**, because at realistic margins a blanket coupon loses money.
+On this dataset, a coupon to everyone who goes quiet is the wrong spend. The users worth a test are **frequent shoppers right after their first lapse**. That's where one missed month turns into a lost customer. For monthly users a 30-day gap is just their rhythm. The first test should be a **free nudge**, because at the assumed margin a blanket coupon loses money.
 
 ## What the data says
 
@@ -51,6 +51,6 @@ Run the winning treatment in a few cities and compare against matched cities. On
 
 ## Caveats
 
-- Instacart is US grocery, not Indian food delivery. Order rhythms differ, so the patterns need checking against Swiggy's own data before anything ships.
+- Instacart is US grocery. Order rhythms differ from Indian quick commerce, so this is a lab result on a public dataset, not a readout of any company's customers.
 - The data has no prices, dates, or locations. Gaps are capped at 30 days, and every user has 4+ orders, so first-order drop-off and true churn can't be measured.
 - The A/B treatment effect is simulated on real control outcomes. The geo-lift study is fully synthetic.

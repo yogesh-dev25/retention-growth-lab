@@ -10,7 +10,7 @@ SQL retention analysis, experiment design, unit economics, and a Streamlit dashb
 - **One lapse breaks a habit.** After a 30+ day gap, weekly regulars lapse again 13.2% of the time vs 1.3% normally. For monthly users the gap is just their rhythm (30.3% vs 28.4%).
 - **Early-life risk is smaller than it looks.** Across all users, lapse rates fall from 23% to 5%, but that is mostly a survivor effect. Following the same users: 6.7% → 3.8%.
 - **Returning users browse.** Post-lapse baskets are the same size, but only 48% of items are repeats vs 61% normally.
-- **Blanket coupons lose money.** At ₹30 contribution per order, a win-back coupon breaks even at about ₹6, because most redeemers would have returned anyway.
+- **Under an assumed ₹30 contribution per order, a blanket coupon loses money.** It breaks even at about ₹6, because most redeemers would have returned anyway. The rupee figures are assumptions. The dataset has no prices.
 
 Decision write-up: [`docs/memo.md`](docs/memo.md).
 
